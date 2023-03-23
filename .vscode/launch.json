@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "lib",
+            "request": "launch",
+            "mainClass": "sem_4.lib",
+            "projectName": "Java_a914206b"
+        },
+        {
+            "type": "java",
+            "name": "HW3",
+            "request": "launch",
+            "mainClass": "sem_4.HW3",
+            "projectName": "Java_a914206b"
+        },
+        {
+            "type": "java",
+            "name": "proga",
+            "request": "launch",
+            "mainClass": "lek_5.proga",
+            "projectName": "Java_a914206b"
+        },
+        {
+            "type": "java",
+            "name": "proga",
+            "request": "launch",
+            "mainClass": "sem_4.proga",
+            "projectName": "Java_a914206b"
+        },
+        {
+            "type": "java",
+            "name": "HW2",
+            "request": "launch",
+            "mainClass": "sem_4.HW2",
+            "projectName": "Java_a914206b"
+        },
+        {
+            "type": "java",
             "name": "HW1",
             "request": "launch",
             "mainClass": "sem_4.HW1",

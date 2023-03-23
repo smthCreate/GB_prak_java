@@ -1,9 +1,12 @@
-package sem_1;
+package sem_4;
 
 
 import java.util.Scanner;
 
 public class lib {
+    // public static void main(String[] args) {
+    //     System.out.println(inputing_string_basic());
+    // }
     static String inputing_string(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input here: ");
@@ -22,6 +25,19 @@ public class lib {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input here: ");
         int input = scanner.nextInt();
+        return input;
+    }
+    static String inputing_string_basic(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input here: ");
+        String input;
+        input = scanner.next();
+        return input;
+    }
+    static double inputing_double(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input here: ");
+        double input = scanner.nextDouble();
         return input;
     }
 }
