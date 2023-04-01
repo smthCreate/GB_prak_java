@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-06T13:12:03.521948300Z</date>
+  <millis>1678108323521</millis>
+  <nanos>948300</nanos>
+  <sequence>0</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.620831Z</date>
+  <millis>1678108323620</millis>
+  <nanos>831000</nanos>
+  <sequence>1</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.622829700Z</date>
+  <millis>1678108323622</millis>
+  <nanos>829700</nanos>
+  <sequence>2</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.625819500Z</date>
+  <millis>1678108323625</millis>
+  <nanos>819500</nanos>
+  <sequence>3</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.627826100Z</date>
+  <millis>1678108323627</millis>
+  <nanos>826100</nanos>
+  <sequence>4</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.631822500Z</date>
+  <millis>1678108323631</millis>
+  <nanos>822500</nanos>
+  <sequence>5</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.634824100Z</date>
+  <millis>1678108323634</millis>
+  <nanos>824100</nanos>
+  <sequence>6</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.636822400Z</date>
+  <millis>1678108323636</millis>
+  <nanos>822400</nanos>
+  <sequence>7</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.638823600Z</date>
+  <millis>1678108323638</millis>
+  <nanos>823600</nanos>
+  <sequence>8</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+<record>
+  <date>2023-03-06T13:12:03.640825300Z</date>
+  <millis>1678108323640</millis>
+  <nanos>825300</nanos>
+  <sequence>9</sequence>
+  <logger>sem_2.HW2</logger>
+  <level>INFO</level>
+  <class>sem_2.HW2</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>тестовое логирование</message>
+</record>
+</log>

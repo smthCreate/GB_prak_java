@@ -8,13 +8,13 @@ public class proga {
     public static void main(String[] args) {
         //MAP
         //HashMap
-        // Map<Integer,String> db = new HashMap<>();
+        Map<Integer,String> db = new HashMap<>();
         // db.put(1,"Dragon_fruit");
-        // db.put(2,"Ananas");
+        db.put(2,"Ananas");
         // db.put(3,"Pear");
         // db.values();
-        // db.putIfAbsent(null, null);
-        // db.get(2);
+        System.out.println(db.putIfAbsent(2,"Ananas")); 
+        db.get(2);
         // db.remove(3);
         // System.out.println(db.containsKey(5));
         // System.out.println(db.containsValue("Apricot"));
