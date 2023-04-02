@@ -1,12 +1,14 @@
-package sem_4;
+package sem_6;
 
 
 import java.util.Scanner;
 
-public class lib {
+public class lb {
     // public static void main(String[] args) {
     //     System.out.println(inputing_string_basic());
     // }
+
+
     static String inputing_string(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input here: ");
@@ -37,7 +39,15 @@ public class lib {
     static double inputing_double(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input here: ");
-        double input = scanner.nextDouble();
+        double input;
+        if (scanner.hasNextDouble()){
+            input = (double) scanner.nextDouble();
+        }else{
+            System.out.println("Ошибка. Повторите ввод операции");
+            scanner.next();
+            input = inputing_double();
+        }
+
         return input;
     }
 }

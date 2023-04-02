@@ -1,8 +1,10 @@
 package sem_6;
 
+import java.util.HashMap;
+
 public class Laptop {
     private double price;
-    private int processor_count;
+    private double processor_count;
     private double hard_drive_size;
     private double weight;
 
@@ -13,6 +15,19 @@ public class Laptop {
         this.weight = weight;
     }
     public Laptop(){
+    }
+    public boolean Compare(Integer paramiter, Double minny){
+        boolean res=false;
+        HashMap<Integer, Double> hsh = new HashMap<>();
+        hsh.put(1,price);
+        hsh.put(2,processor_count);
+        hsh.put(3,weight);
+        hsh.put(4,hard_drive_size);
+        if (hsh.get(paramiter)>=minny){
+            res = true;
+            System.out.println(hsh.get(paramiter));
+        } else res=false;
+        return res;
     }
 
 
@@ -35,11 +50,11 @@ public class Laptop {
         this.price = price;
     }
 
-    public int getProcessor_count() {
+    public double getProcessor_count() {
         return processor_count;
     }
 
-    public void setProcessor_count(int processor_count) {
+    public void setProcessor_count(double processor_count) {
         this.processor_count = processor_count;
     }
 
